@@ -1,20 +1,16 @@
 {
-  "name": "yb-ui-founder",
-  "version": "0.1.1",
-  "private": false,
-  "author": {
-    "name": "yb"
-  },
-  "main": "dist/yb-ui.umd.min.js",
+  "name": "demo1",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib packages/index.js"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "yb-ui-founder": "^0.1.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.13",

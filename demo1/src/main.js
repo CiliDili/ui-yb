@@ -1,9 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
-import OneUI from '../packages'
-import '../packages/fonts/demo.css'
+import yb from 'yb-ui-founder'
+import 'yb-ui-founder/dist/yb-ui.css'
 Vue.config.productionTip = false
-Vue.use(OneUI)
+Vue.use(yb)
+
 new Vue({
-  render: h => h(App)
+  render: h => h(App),
 }).$mount('#app')
